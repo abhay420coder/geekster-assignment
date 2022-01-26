@@ -1,0 +1,46 @@
+jan25
+
+logic building:-
+
+--> flow charts
+
+--> loops
+
+--> conditions
+
+Q1. what is a flow charts
+
+--> pictorial repersentation of steps we use to solve particular problem.
+
+Q2. what is a language
+
+--> medium of communication.
+--> collection of keyword which mean something.
+--> some rules of that language
+--> set of riles/symbols
+
+q3. what is a programming language
+--> medium of communication (we human <-> machine)
+--> we use it to provide commands to machine.
+--> collection of keywords and some rules
+
+q4. what is programming
+--> giving instruction to solve a particular problem. (to complete a task)
+
+q5. what is program
+--> a set of instruction to solve a particular problem
+--> a collection of commands
+--> a collection of steps which needs to be executed
+
+q6. what is an instruction
+--> a single task / a single step for the machine to do.
+--> a single statement.
+--> building block of a program.
+
+q7. what is psuedo 
+--> false code (fake)
+--> it is not the correct code with respect to that programming language.
+--> psuedo code is used for human <-> human understanding.
+
+q7. what are some programming language
+--> java , python , c , c++ , c# , php , ruby , go
