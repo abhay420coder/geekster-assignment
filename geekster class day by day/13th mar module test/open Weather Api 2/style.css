@@ -1,0 +1,88 @@
+body{
+    display: flex;                      /*center lane ke liye ki hmesa center me hi rhe*/
+    justify-content: center;             /*center lane ke liye ki hmesa center me hi rhe*/
+    align-items: center;                    /*center lane ke liye ki hmesa center me hi rhe*/
+    height: 100vh;                           /*center lane ke liye ki hmesa center me hi rhe*/
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #222;
+    background-image: url('https://source.unsplash.com/1600*900/?nature,water');
+    font-size: 120%;
+}
+
+.card{
+    background-color: #000000d0;
+    color: white;
+    padding: 50px;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 320px;
+    margin: 10px;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    margin: 0.5em;
+    border-radius: 50%;
+    border: none;
+    height: 44px;
+    width: 44px;
+    background-color: #7c7c7c2b;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+button:hover{
+    background-color: #7c7c7c6b;
+}
+
+input.search-bar{
+    border: none;
+    outline: none;
+    padding: 0.4em 1em;
+    border-radius: 24px;
+    background-color: #7c7c7c2b;
+    color: white;
+    font-family: inherit;
+    font-size: 105%;
+    width: calc(100% - 100px);
+}
+
+h1.temp{
+    margin: 0;
+    margin-bottom: 0.4em;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+.description {
+    text-transform: capitalize;
+    margin-left: 8px;
+}
+
+
+
+.Weather.loading { /*two selector in and condition*/
+    visibility: hidden;
+    max-height: 20px;
+    position: relative;
+}
+
+.Weather.loading:after{
+    visibility: visible;
+    content: "Loading.....";
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 20px;
+}
+
